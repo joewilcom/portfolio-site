@@ -69,3 +69,34 @@ a:hover {
   font-style: italic;
   color: #555;
 }
+/* ...existing code... */
+
+.corner-text {
+  position: absolute;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-size: 1rem;
+  color: #bbb;
+  opacity: 0.7;
+  pointer-events: none;
+  user-select: none;
+  font-family: monospace;
+  z-index: 10;
+}
+
+.upper-right {
+  top: 1rem;
+  right: 1rem;
+}
+
+.lower-left {
+  bottom: 1rem;
+  left: 1rem;
+}
+
+/* Make sure .outer-border is position: relative */
+.outer-border {
+  /* ...existing code... */
+  position: relative;
+}
+/* ...existing code... */
