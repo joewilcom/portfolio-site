@@ -66,10 +66,9 @@ a:hover {
 }
 
 .org {
-  font-style: italic;
   color: #555;
 }
-/* ...existing code... */
+
 
 .corner-text {
   position: absolute;
@@ -99,4 +98,4 @@ a:hover {
   /* ...existing code... */
   position: relative;
 }
-/* ...existing code... */
+
