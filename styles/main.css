@@ -10,25 +10,45 @@ body {
   height: 100vh;
   text-align: center;
 }
+
 .container {
   max-width: 600px;
   padding: 2rem;
 }
+
 h1 {
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
+
 h2 {
   font-size: 1.25rem;
   font-weight: normal;
   margin-bottom: 2rem;
 }
+
 a {
   color: black;
   text-decoration: underline;
 }
+
 a:hover {
   text-decoration: none;
+}
+
+/* Brutalist Geometry */
+.line {
+  border-top: 1px solid black;
+  margin: 1rem auto;
+  width: 80%;
+}
+
+.diamond {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  transform: rotate(45deg);
+  margin: 0 auto 2rem;
 }
